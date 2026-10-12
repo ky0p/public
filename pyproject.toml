@@ -1,0 +1,9 @@
+[project]
+name = "diagnostics"
+version = "0.1.0"
+description = "Print a short system info report safe to paste into a bug report."
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
